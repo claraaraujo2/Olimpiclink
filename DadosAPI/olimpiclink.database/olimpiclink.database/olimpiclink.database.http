@@ -1,0 +1,6 @@
+@olimpiclink.database_HostAddress = http://localhost:5184
+
+GET {{olimpiclink.database_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

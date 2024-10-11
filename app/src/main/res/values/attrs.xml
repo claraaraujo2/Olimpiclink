@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PublicationPublished">
+        <attr name="tv_login_user" format="string" />
+        <attr name="tv_text_publication" format="string" />
+    </declare-styleable>
+    <declare-styleable name="ToolbarCustom"></declare-styleable>
+    <declare-styleable name="BottomAppbar"></declare-styleable>
+</resources>

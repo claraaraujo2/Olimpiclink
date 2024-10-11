@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Olimpiclink" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/laranja_splash</item>
+        <item name="colorPrimaryVariant">@color/laranja_splash</item>
+        <item name="colorOnPrimary">@color/laranja_splash</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/laranja_splash</item>
+        <item name="colorSecondaryVariant">@color/laranja_splash</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Olimpiclink.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Olimpiclink.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Olimpiclink.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

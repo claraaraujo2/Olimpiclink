@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\olimpiclink.database.props" />
+</Project>

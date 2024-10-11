@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="395dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/publication_shape"
+            android:paddingRight="22dp"
+            android:paddingLeft="22dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="32dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    app:srcCompat="@android:drawable/ic_dialog_info" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="#nomedousuario"
+                        android:textSize="16sp"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="10dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_date_publication"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="xx de xxxxx de 202x"
+                        android:textSize="10sp"
+                        android:paddingLeft="8dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_text_publication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="bskda blksdhas blkdfhkashf bkhsldjh bkslkdjas nolhsdkj bgkjsdhkjhjsd bkfchsfsladj blkjhdslkj hgdg🚐🚐🚑🏍️🏍️🥯🥐🥞🥚🥐🥖"
+                android:justificationMode="inter_word"
+                android:paddingHorizontal="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="2dp"
+                android:textSize="16dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="4dp"
+                android:layout_gravity="center"
+                >
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rc_images"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="0dp"
+                    android:scrollbars="none"
+                    />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rc_images2"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="4dp"
+                    android:scrollbars="none"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_localization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:justificationMode="inter_word"
+                android:paddingHorizontal="16dp"
+                android:text=""
+                android:textSize="0dp" />
+            <TextView
+                android:id="@+id/tv_marked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="marcados @uelahk @felipy @clara @raony @tavora"
+                android:justificationMode="inter_word"
+                android:paddingHorizontal="6dp"
+                android:paddingBottom="10dp"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

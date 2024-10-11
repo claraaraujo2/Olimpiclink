@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@color/laranja_splash"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+            <ImageView
+                android:id="@+id/btn_pg_initial"
+                android:layout_width="60dp"
+                android:layout_height="58dp"
+                android:src="@drawable/logo"
+                android:background="@drawable/logo_shape"
+                android:padding="4dp"
+                android:layout_marginEnd="18dp"
+                />
+            <ImageView
+                android:id="@+id/btn_pg_notifications"
+                android:layout_width="60dp"
+                android:layout_height="58dp"
+                android:src="@drawable/logo"
+                android:background="@drawable/logo_shape"
+                android:padding="4dp"
+                android:layout_marginEnd="18dp"
+                />
+            <ImageView
+                android:id="@+id/btn_pg_create_publication"
+                android:layout_width="60dp"
+                android:layout_height="58dp"
+                android:src="@drawable/logo"
+                android:background="@drawable/logo_shape"
+                android:padding="4dp"
+                android:layout_marginEnd="18dp"
+                />
+            <ImageView
+                android:id="@+id/btn_pg_comunities"
+                android:layout_width="60dp"
+                android:layout_height="58dp"
+                android:src="@drawable/logo"
+                android:background="@drawable/logo_shape"
+                android:padding="4dp"
+                android:layout_marginEnd="18dp"
+                />
+            <ImageView
+                android:id="@+id/btn_pg_profile"
+                android:layout_width="60dp"
+                android:layout_height="58dp"
+                android:src="@drawable/logo"
+                android:background="@drawable/logo_shape"
+                android:padding="4dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
